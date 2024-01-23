@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+/* Style the logout button */
+.button.active {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Style the #titleSignUp section */
+#titleSignUp {
+    text-align: center;
+    padding: 20px;
+}
+
+#titleSignUp h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Style the form */
+#form {
+    text-align: center;
+    padding: 20px;
+}
+
+#form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 18rem;
+    margin-top: 2rem;
+}
+
+/* Style the form validation patterns */
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}

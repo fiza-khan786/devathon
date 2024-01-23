@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal blogging page</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="navbar">
+        <header>
+            <h3 class="logo">Personal Blogging App</h3>
+
+            <a href="login.html"><button class="button active" type="submit">Logout</button></a>
+        </header>
+    </div><br><br><br><br>
+    <!-- #titleSignUp -->
+    <div id="titleSignUp">
+        <h1>Dashboard</h1>
+    </div>
+    <a href="profile.html"><button class="button active" type="submit">My Profile</button></a>
+    <div class="container">
+          <div id="publish-blog">
+        <input type="text" placeholder="Placeholder" id="blog-heading" minlength="5" maxlength="50"
+            required><br></label></div>
+        <div>
+        <textarea name="" id="blog-content" placeholder="What is in your mind" minlength="100" maxlength="3000"
+            required></textarea>
+        </div>
+        <br><br>
+        <!-- <button type="button" id="publish_btn">Post Blog</button> -->
+        <input type="button" value="Publish Blog" id="publish-btn">
+        </div>
+        <!-- <h2 class="myBlogs" style="margin-bottom: 2rem; font-size: 2.5rem;">My Blogs</h2>
+    </section> -->
+    <!-- For My blog section-->
+    <!-- <section id="myblog">
+        <div class="publish-content blog">
+            <div id="published-blog"></div>
+    </section> -->
+    </div>
+
+    <script type="module" src="./dashboard.js"></script>
+</body>
+
+</html>

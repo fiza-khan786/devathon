@@ -1,0 +1,66 @@
+</head>
+<title>Admin Panel</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div class="container">
+    <h2>Admin Panel</h2>
+    <div class="form-group">
+        <label for="classTimings">Class Timings:</label>
+        <select id="classTimings">
+            <option value="9:00 AM">9:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="schedule">Schedule:</label>
+        <select id="schedule">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="teacherName">Teacher's Name:</label>
+        <select id="teacherName">
+            <option value="John Smith">Miss Hina</option>
+            <option value="Jane Doe">Miss Tayyeba</option>
+            <option value="Robert Johnson">Miss Qurratulain</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="sectionName">Section Name:</label>
+        <select id="sectionName">
+            <option value="Section A">Section A</option>
+            <option value="Section B">Section B</option>
+            <option value="Section C">Section C</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="courseName">Course Name:</label>
+        <select id="courseName">
+            <option value="Mathematics">Mathematics</option>
+            <option value="Science">Science</option>
+            <option value="History">History</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="batchNumber">Batch Number:</label>
+        <select id="batchNumber">
+            <option value="Batch 101">Batch 101</option>
+            <option value="Batch 202">Batch 202</option>
+            <option value="Batch 303">Batch 303</option>
+            <!-- Add more options here -->
+        </select>
+    </div>
+    <button onclick="saveData()">Save</button>
+</div>
+<script type="module" src="./admin.js"></script>
+</body>
+</html>
